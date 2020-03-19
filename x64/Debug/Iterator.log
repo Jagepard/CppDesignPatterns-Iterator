@@ -1,16 +1,2 @@
 ﻿  Iterator.cpp
-E:\C++\projects\patterns\Behavioral\Iterator\Iterator.h(8,14): error C2039: list: не является членом "std"
-E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\iostream(19): message : см. объявление "std"
-E:\C++\projects\patterns\Behavioral\Iterator\Iterator.h(8,18): error C2143: синтаксическая ошибка: отсутствие ";" перед "<"
-E:\C++\projects\patterns\Behavioral\Iterator\Iterator.h(8,18): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-E:\C++\projects\patterns\Behavioral\Iterator\Iterator.h(8,32): error C2238: непредвиденные лексемы перед ";"
-E:\C++\projects\patterns\Behavioral\Iterator\Iterator.h(11,23): error C2039: list: не является членом "std"
-E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\iostream(19): message : см. объявление "std"
-E:\C++\projects\patterns\Behavioral\Iterator\Iterator.h(11,41): error C2061: синтаксическая ошибка: идентификатор "list"
-E:\C++\projects\patterns\Behavioral\Iterator\Iterator.cpp(13,42): error C2664: "Iterator::Iterator(Iterator &&)": невозможно преобразовать аргумент 1 из "std::list<Item,std::allocator<Item>>" в "const Iterator &"
-E:\C++\projects\patterns\Behavioral\Iterator\Iterator.cpp(13,42): message : Причина: невозможно преобразовать "std::list<Item,std::allocator<Item>>" в "const Iterator"
-E:\C++\projects\patterns\Behavioral\Iterator\Iterator.cpp(13,39): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
-E:\C++\projects\patterns\Behavioral\Iterator\Iterator.h(12,1): message : см. объявление "Iterator::Iterator"
-E:\C++\projects\patterns\Behavioral\Iterator\Iterator.cpp(31,1): error C2511: Iterator::Iterator(std::list<Item,std::allocator<Item>>): перегруженная функция-член не найдена в "Iterator"
-E:\C++\projects\patterns\Behavioral\Iterator\Iterator.h(5): message : см. объявление "Iterator"
-E:\C++\projects\patterns\Behavioral\Iterator\Iterator.cpp(32,5): error C2065: _bucket: необъявленный идентификатор
+  Iterator.vcxproj -> E:\C++\projects\patterns\Behavioral\Iterator\x64\Debug\Iterator.exe
