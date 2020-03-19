@@ -1,3 +1,8 @@
+/**
+ * @author  : Jagepard <jagepard@yandex.ru>
+ * @license https://mit-license.org/ MIT
+ */
+
 #pragma once
 
 #include "Item.h"
@@ -10,4 +15,3 @@ class ClientInterface
         virtual void addItemToTheBucket(Item item) = 0;
         virtual std::list<Item> getBucket() = 0;
 };
-
