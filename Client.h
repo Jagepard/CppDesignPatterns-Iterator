@@ -5,13 +5,14 @@
 
 #pragma once
 
+#include <vector>
 #include "ClientInterface.h"
 
 class Client : public ClientInterface
 {
     private:
-        std::list<Item> _bucket;
+        std::vector<Item> _bucket;
     public:
         virtual void addItemToTheBucket(Item item) override;
-        virtual std::list<Item> getBucket() override;
+        virtual std::vector<Item> getBucket() override;
 };

@@ -6,12 +6,12 @@
 #pragma once
 
 #include "Item.h"
-#include <list>
+#include <vector>
 
 class ClientInterface
 {
     public:
-        std::list<Item> bucket;
+        std::vector<Item> bucket;
         virtual void addItemToTheBucket(Item item) = 0;
-        virtual std::list<Item> getBucket() = 0;
+        virtual std::vector<Item> getBucket() = 0;
 };

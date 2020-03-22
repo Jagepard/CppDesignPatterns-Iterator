@@ -4,13 +4,14 @@
  */
 
 #include "Client.h"
+#include <vector>
 
 void Client::addItemToTheBucket(Item item)
 {
     _bucket.push_back(item);
 }
 
-std::list<Item> Client::getBucket()
+std::vector<Item> Client::getBucket()
 {
     return _bucket;
 }
