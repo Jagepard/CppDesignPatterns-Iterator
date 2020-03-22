@@ -7,7 +7,7 @@
 #include "Iterator.h"
 #include "Client.h"
 #include "Item.h"
-#include <list>
+#include <vector>
 #include <iterator>
 
 int main()
@@ -33,12 +33,12 @@ int main()
 
 void Iterator::iterateItems()
 {
-    for (std::list<Item>::iterator it = _bucket.begin(); it != _bucket.end(); it++) {
+    for (std::vector<Item>::iterator it = _bucket.begin(); it != _bucket.end(); it++) {
         std::cout << it->getName() << " " << it->getPrice() << " " << it->getDescription() << std::endl;
     }
 }
 
-Iterator::Iterator(std::list<Item> bucket)
+Iterator::Iterator(std::vector<Item> bucket)
 {
     _bucket = bucket;
 }
